@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1034160518800",
+    "firebase_url": "https://firstproject-e7d7b.firebaseio.com",
+    "project_id": "firstproject-e7d7b",
+    "storage_bucket": "firstproject-e7d7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034160518800:android:f66c667261ca1cfd480a15",
+        "android_client_info": {
+          "package_name": "io.github.monolithofficial.monolithprofilepage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034160518800-nna88n5arkls4eisqmo6jh5f7eujs8bl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA96i9Y-Kvij5i9Zj_zOjW6M9Zm2IBAhlE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034160518800-nna88n5arkls4eisqmo6jh5f7eujs8bl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/moon"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="100dp">
+
+        <EditText
+            android:background="#9EFFFFFF"
+            android:padding="10dp"
+            android:inputType="textEmailAddress"
+            android:id="@+id/emailFieldSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your email"/>
+
+        <EditText
+            android:background="#9EFFFFFF"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"
+            android:id="@+id/passwordFieldSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your password"/>
+
+
+
+
+            <Button
+                android:layout_marginTop="100dp"
+                android:id="@+id/signUpBtnRl"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#E6FF0000"
+                android:layout_gravity="center_horizontal"
+                android:text="Sign UP"
+                android:textColor="#fff"/>
+        </LinearLayout>
+
+
+
+</FrameLayout>
