@@ -51,12 +51,13 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/display"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
-                    android:text="Project Monolith"
+                    android:text=""
                     android:textColor="#FFC800"
-                    android:textSize="40sp"
+                    android:textSize="30sp"
                     android:textStyle="italic" />
 
                 <TextView

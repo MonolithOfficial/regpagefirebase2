@@ -1,10 +1,12 @@
 package io.github.monolithofficial.monolithprofilepage
 
+import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.bumptech.glide.Glide
+import kotlinx.android.synthetic.main.activity_login.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -14,6 +16,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         init()
+
+
 
         Glide.with(this).load("https://monolithofficial.github.io/Images/logo/52958287_1217457288413180_6485153158124273664_o.jpg").into(monolithCover)
         Glide.with(this).load("https://monolithofficial.github.io/Images/logo/Monolith1.jpg").into(monolithPfp)
@@ -38,6 +42,14 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun init(){
+
+        val email = intent.extras!!.getString("email", "")
+        val password = intent.extras!!.getString("password", "")
+
+
+        display.text = email.substringBefore("@")
+
+
         bcBtn.setOnClickListener {
             val i = Intent(Intent.ACTION_VIEW, Uri.parse("https://monolithworldline.bandcamp.com"))
             startActivity(i)
@@ -59,5 +71,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(i)
         }
     }
+
+
 
 }
